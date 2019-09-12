@@ -3,10 +3,10 @@
 (#%require rackunit
            "smallest-divisor.rkt")
 
-(define (is-prime n)
+(define (prime? n)
   (= (smallest-divisor n) n))
 
-(#%provide is-prime)
+(#%provide prime?)
 
-(check-true (is-prime 47))
-(check-false (is-prime 15))
+(check-true (prime? 47))
+(check-false (prime? 15))

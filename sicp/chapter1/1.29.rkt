@@ -13,7 +13,7 @@
 
 (define (cube x) (* x x x))
 
-(integral cube 0 1 0.01)
+;(integral cube 0 1 0.01)
 
 
 (define (simpsons-int f a b n)

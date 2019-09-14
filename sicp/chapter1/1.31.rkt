@@ -29,4 +29,4 @@
 
 (check-equal? (factorial 6) 720)
 
-(appr-pi 100)
+;(appr-pi 100)

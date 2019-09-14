@@ -28,5 +28,5 @@
         (iter (- k 1) (/ (n k) (+ (d k) acc)))))
   (iter k 0))
 
-(golden-ratio-rec 1000)
-(golden-ratio-iter 1000)
+;(golden-ratio-rec 1000)
+;(golden-ratio-iter 1000)

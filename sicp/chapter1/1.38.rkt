@@ -33,5 +33,5 @@
         1))
   (+ 2.0 (cont-frac-iter n d k)))
 
-(appr-e-rec 100)
-(appr-e-iter 1000)
+;(appr-e-rec 100)
+;(appr-e-iter 1000)
